@@ -1,0 +1,220 @@
+
+#mainNavbar .nav-link {
+	color: white;
+	font-weight:230;
+	font-size:1.25rem;
+}
+
+#mainNavbar {
+	background:black;
+}
+
+.jumbotron {
+    min-height:480px;
+}
+
+
+h1 {
+	color:white;
+	font-weight: 260px;
+	font-family:Nunito;
+	padding-top:50px;
+	padding-bottom:20px;
+
+}
+
+#header {
+	background: url('assets/wuhan.jpg') center center / cover no-repeat;
+	-webkit-filter: grayscale(100%);
+	
+
+}
+
+.lead {
+	color:white;
+	font-size:1.8rem;
+	font-weight: 300px;
+	font-family:Nunito;
+}
+
+
+
+#image {
+	border-radius: 50%;
+	display:block;
+	margin: auto;
+	padding: 0 100px 20px 100px;
+}
+
+#about {
+	padding: 90px 200px 90px 200px;
+}
+
+#quote {
+	background:black;
+}
+
+i {
+	color:white;
+}
+
+#segment {
+	font-family: Arial;
+	padding: 80px 80px 80px 80px;
+	color:white;
+}
+
+
+h3 {
+	padding-bottom:30px;
+
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+hr {
+	border:1px solid;
+}
+
+/* Timeline */
+
+#profile {
+	padding: 20px 15px 30px 15px;
+
+}
+
+#timelineseg {
+	min-height:100vh;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	background-color: white;
+	color:gray;
+}
+
+.timeline {
+	width:80%;
+	height:auto;
+	max-width:800px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.timeline ul {
+	list-style: none;
+
+}
+
+.timeline ul li {
+	padding: 20px;
+	background-color:#565758;
+	color:white;
+	border-radius: 10px;
+	margin-bottom:20px;
+}
+
+.timeline ui li:last-child {
+	margin-bottom:0;
+}
+
+.timeline-content h1{
+	font-size:25px;
+	font-weight:500;
+	line-height:30px;
+	margin-bottom:10px
+}
+
+.timenline-content p {
+	font-size:16px;
+	line-height:30px;
+	font-weight:300;
+}
+
+@media only screen and (min-width: 768px) {
+	.timeline::before{
+		content:'';
+		position:absolute;
+		height:100%;
+		width:2px;
+		left:50%;
+		transform: translateX(-50%);
+		background-color:rgb(189, 184, 184);
+	}
+	.timeline ul li {
+		width:50%;
+		margin-bottom:50px;
+		position:relative;
+	}
+	.timeline ul li:nth-child(odd) {
+		float:left;
+		clear:right;
+		transform: translateX(-30px);
+	}
+	.timeline ul li:nth-child(even) {
+		float:right;
+		clear:left;
+		transform: translateX(30px);
+	}
+	.timeline ul li::after {
+		content:'';
+		position: absolute;
+		height:20px;
+		width:20px;
+		background-color:rgb(202, 194, 194);
+		border-radius:50%;
+		top:0;
+	}
+	.timeline ul li:nth-child(odd)::after {
+		transform:translateX(50%,-50%);
+		right:-40px;
+	}
+	.timeline ul li:nth-child(even)::after {
+		transform:translateX(-50%,50%);
+		left:-40px;
+	}
+}
+
+/*footer*/
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#070707; min-height:250px; padding:10px 0px 25px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:20px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:8px;}
+.mb10 { padding-bottom:15px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li {color:white;padding: 5px 0 5px 0;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:20px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
+
+
+/*background image copyright: Photo by Markus Spiske from Pexels*/
